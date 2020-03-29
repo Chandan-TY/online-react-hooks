@@ -5,6 +5,7 @@ import CounterOne from "./components/CounterOne";
 import CounterTwo from "./components/CounterTwo";
 import ComponentA from "./components/ComponentA";
 import { CounterProvider } from "./context-api/counterContext";
+import FetchingData from "./components/FetchingData";
 
 const initialState = {
   value: 0
@@ -32,14 +33,15 @@ function App() {
     <div className="App">
       {/* <CounterOne /> */}
       {/* <CounterTwo /> */}
-      <CounterProvider
+      {/*  <CounterProvider
         value={{
           count: count,
           dispatch: dispatch
         }}
       >
         <ComponentA />
-      </CounterProvider>
+      </CounterProvider> */}
+      <FetchingData />
     </div>
   );
 }
