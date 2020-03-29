@@ -1,6 +1,6 @@
 import React, { Component, useState, useEffect } from "react";
-import RecipeDetail from "./components/recipe-detail/RecipeDetail";
-import RecipeList from "./components/recipe-list/RecipeList";
+import RecipeDetail from "../recipe-detail/RecipeDetail";
+import RecipeList from "../recipe-list/RecipeList";
 import Axios from "axios";
 
 function RecipeApp() {

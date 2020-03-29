@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import UserContext from "../../context-api/loginContext";
-import RecipeApp from "../../RecipeApp";
+import RecipeApp from "../recipe-add/RecipeApp";
 import Home from "../home/Home";
 import RecipeAdd from "../recipe-add/RecipeAdd";
 import Login from "../login/Login";
